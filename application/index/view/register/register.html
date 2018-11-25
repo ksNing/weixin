@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta charset="utf-8"> 
+  <title>注册</title> 
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+ 
+  <body> 
+    <div id="regist_form"> 
+  <dl> 
+    <form action="{:url('register/doRegister')}" method="post"> 
+    <dt> 
+    <p>姓名:<input type="text" name="uname"></p>
+    </dt>
+    
+    
+    <dt> 
+    <p>密码:<input type="password" name="upwd"></p>
+    </dt>
+
+    
+    <dt> 
+    <p><input type="submit" value="注册"></p>
+    </dt>
+    </form>
+  </dl>
+  </div>
+  </body>
+</html>
